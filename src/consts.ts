@@ -10,7 +10,7 @@ export const DATE_FORMAT = "ddd MMM DD YYYY";
 
 // User profile information
 export const USER_NAME = "Dijkstra";
-export const USER_SITE = ""
+export const USER_SITE = "https://www.bilibili.com/"
 export const USER_AVATAR = "/jhd.jpg";
 
 // Server and transition settings
