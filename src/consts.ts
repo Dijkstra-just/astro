@@ -3,9 +3,9 @@
 
 // Site title and description
 export const SITE_LANG = "en";
-export const SITE_TAB = "Frosti";
-export const SITE_TITLE = "Frosti 🧊";
-export const SITE_DESCRIPTION = "Dijkstra's template";
+export const SITE_TAB = "Dijkstra";
+export const SITE_TITLE = "Dijkstra 🧊";
+export const SITE_DESCRIPTION = "Dijkstra's blog";
 export const DATE_FORMAT = "ddd MMM DD YYYY";
 
 // User profile information
