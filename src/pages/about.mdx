@@ -12,45 +12,69 @@ import LinkCard from "../components/page/LinkCard.astro";
 
 <BaseLayout title="About">
   <BaseCard title="About">
-# About Frosti
+# About me
 
 ---
 
 ## Brief introduction
 
-Frosti is a static blog template created by EveSunMaple using Astro, designed to replace bloated Hexo. The author is only a high school student, and there are many imperfections in this template that need to be modified. If you are interested, please visit the Github repository.
+自我介绍的话么，也确实不知从何说起hh
 
-## TimeLine
+那就说说现在吧，目前正在武汉某985读世界第一专业的大三（但默默吐槽一句的是什么也没学会），或许也发现确实是自己不够努力，所以现在打算从头开始，学习有用的东西，开这个博客也算记录一下？
+
+嗯，应该就是这样的！
+
+### 性格
+作为infj，不会主动社交（虽然可能会有下意识的想法，但往往都会再三犹豫而打消），完美主义者（导致的结果就是不会问导师问题，永远想自己解决，做完美后再给别人看）。
+
+### 兴趣爱好
+各种活动或多或少都会且都愿意去接触学习（剧本杀，密室逃脱等无聊游戏除外），跑步、健身、喝茶估计也就剩这点了（但其实绝大多数我都玩过），后续想法是学做咖啡。
+
+## 人生经历
 
     <TimeLine
 
 items={[
-{ year: "2024-5-29", event: "Fixed accessibility issues, improved speed" },
-{ year: "2024-5-30", event: "Improved content, updated README, score 395" },
-{ year: "2024-6-2", event: "Added ProjectCard, refined Project page, removed lazy loading" },
-{ year: "2024-6-2", event: "Optimized link styles, pagespeed score 400" },
-{ year: "2024-6-12", event: "Added busuanzi counter" },
-{ year: "2024-6-16", event: "Converted CSS to SCSS, customized waline, improved Footnotes" },
-{ year: "2024-6-28", event: "Revamped SCSS to Tailwind, updated footer" },
-{ year: "2024-7-8", event: "Lighthouse score 400, enabled text compression, reverted footer" },
-{ year: "2024-7-9", event: "Added search functionality, refined footer and navbar" },
-{ year: "2024-7-9", event: "Fixed navigation issue" },
-{ year: "2024-7-10", event: "Added twikoo comments, improved search night mode" },
-{ year: "2024-7-13", event: "Added TOC, new guide article, new components" },
-{ year: "2024-7-18", event: "Added line numbers to code blocks, tutorial for code block themes" },
-{ year: "2024-7-19", event: "Fixed astro.config.mjs issues, improved day mode code block styles" },
-{ year: "2024-7-21", event: "Restructured main element, rewrote social links, menus, navbar, comments" },
-{ year: "2024-7-22", event: "Added back-to-top button, tablet styles, new article and repo card styles" },
-{ year: "2024-7-22", event: "Cleaned global.scss, added uncategorized tag for articles without tags" },
-{ year: "2024-7-23", event: "Fixed navbar disappearance on mobile" },
-{ year: "2024-7-24", event: "Fixed project card information issues, TOC navigation on blog and project pages" },
-{ year: "2024-7-26", event: "Fixed project card style issues, type issues checked" },
-{ year: "2024-7-29", event: "Separated line numbers and top bar from code, added code language display" },
-{ year: "2024-7-29", event: "Adjusted code block top bar, padding on mobile" },
-{ year: "2024-7-30", event: "Added tab page configuration to consts.ts, updated BaseLayout.astro" },
-{ year: "2024-8-1", event: "Added pagination buttons, integrated with sidebar" },
-{ year: "2024-8-2", event: "Added category feature, pagination for category and tag lists" },
-{ year: "2024-8-4", event: "Updated README, added Vercel Web Analytics" },
+{ year: "2004-7-3", event: "我来到人世间" },
+{year:"2011-8-?",event:"我开始在村子里上小学"},
+{year:"2016-8-25",event:"我开始在镇上上初中"},
+{year:"2019-8-18",event:"我在登封市外国语高级中学开启旅程"},
+{year:"2020-7-1",event:"第一次真正想接触物理竞赛"},
+{year:"2022-6-8",event:"高考结束，大哭一场"},
+{year:"2022-8-3",event:"第一次和同学出去旅行-洛阳"},
+{year:"2022-8-18",event:"来到了改变一生的地方-武汉大学"},
+{year:"2022-9-25",event:"加入人生第一个社团--武汉大学茶艺协会"},
+{year:"2022-11-27",event:"疫情封控第一次发疯跳舞，pyq流传"},
+{year:"2023-1-11",event:"第一次接触板绘并尝试iPad画画"},
+{year:"2023-2-12",event:"上传了抖音的第一个视频（也是最后一个）"},
+{year:"2023-3-15",event:"第一次旷课，去看樱花"},
+{year:"2023-3-26",event:"第一次看展览--国家地理展"},
+{year:"2023-3-30",event:"买了第一辆自行车"},
+{year:"2023-4-10",event:"第一次参加武汉大学电竞协会LOL厨神杯比赛"},
+{year:"2023-4-29",event:"第一次尝试连续在电影院看4部电影"},
+{year:"2023-6-3",event:"第一次在网吧学习--复习数据结构"},
+{year:"2023-6-15",event:"第一次学院外出实习"},
+{year:"2023-6-30",event:"第一次班级实践，去北京顺便看望了小猴"},
+{year:"2023-8-2",event:"拿到驾照"},
+{year:"2023-8-10",event:"第一次体验兼职，挣钱真的很累，这也是金钱观转变的节点"},
+{year:"2023-9-8",event:"第一次作为学生会负责人招新，虽然最后也没做得很好"},
+{year:"2023-9-14",event:"买了人生中第一个相机--佳能60d"},
+{year:"2023-9-19",event:"第一次开始学习围棋"},
+{year:"2023-10-4",event:"第一次学习轮滑"},
+{year:"2023-10-22",event:"第一次学习跆拳道"},
+{year:"2023-11-20",event:"第一次看日出--凌波门--自己"},
+{year:"2023-11-29",event:"武汉大学130周年校庆"},
+{year:"2023-12-18",event:"第一次开始以积极的心态主动尝试跑步"},
+{year:"2023-12-29",event:"第一次调酒"},
+{year:"2024-1-16",event:"第一次尝试陶艺"},
+{year:"2024-3-31",event:"人生第一个半程马拉松--1:55:22"},
+{year:"2024-5-1",event:"四人组初聚武汉"},
+{year:"2024-8-16",event:"第一次看足球比赛"},
+{year:"2024-9-27",event:"第一次刺绣--马山楚绣"},
+{year:"2024-10-4",event:"第一次自己一个人去旅游--福州--原因是“你的名字”"},
+{year:"2024-11-16",event:"第一次外出参加比赛--杭州--见到燕同学"},
+{year:"2025-1-3",event:"西北小环线--个人游"},
+{year:"2025-1-9",event:"四人聚西安"},
 ]}
 />
 

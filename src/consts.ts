@@ -10,7 +10,7 @@ export const DATE_FORMAT = "ddd MMM DD YYYY";
 
 // User profile information
 export const USER_NAME = "Dijkstra";
-export const USER_SITE = "https://www.bilibili.com/"
+export const USER_SITE = "https://love.dijkstra-jhd.cn"
 export const USER_AVATAR = "/jhd.jpg";
 
 // Server and transition settings
@@ -92,13 +92,13 @@ export const socialIcons = [
     svg: "ri:cup-line",
   },
   {
-    href: "https://github.com/EveSunMaple",
+    href: "https://github.com/Dijkstra-just",
     ariaLabel: "Github",
     title: "Github",
     svg: "ri:github-line",
   },
   {
-    href: "https://space.bilibili.com/438392347",
+    href: "https://space.bilibili.com/17661219?spm_id_from=333.33.0.0",
     ariaLabel: "BiliBili",
     title: "BiliBili",
     svg: "ri:bilibili-line",
